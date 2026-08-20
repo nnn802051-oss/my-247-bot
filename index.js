@@ -51,4 +51,4 @@ if (!process.env.DISCORD_TOKEN) {
   console.error('[CRITICAL ERROR] ไม่พบ DISCORD_TOKEN ใน Variables ของ Discloud!');
 } else {
   client.login(process.env.DISCORD_TOKEN);
-}
+  
